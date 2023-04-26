@@ -8,10 +8,10 @@ export const childrenCommon = [
     component: () => import("pages/IndexPage.vue"),
   },
   {
-    title: "Jobs",
+    title: "Job",
     icon: "work",
-    path: "/jobs",
-    component: () => import("pages/JobsPage.vue"),
+    path: "/job/:id",
+    component: () => import("pages/JobPage.vue"),
   },
 ];
 

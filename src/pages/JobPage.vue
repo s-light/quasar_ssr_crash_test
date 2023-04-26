@@ -34,7 +34,7 @@ watch(
   () => route.params.id,
   (newJobId) => {
     // console.log(`newJobId '${newJobId}'`);
-    // job_structuredData.value = jobsStore.getJobStructuredData(newJobId);
+    job_structuredData.value = jobsStore.getJobStructuredData(newJobId);
   },
   { immediate: true }
 );

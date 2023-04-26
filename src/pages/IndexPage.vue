@@ -6,7 +6,7 @@
       style="width: 200px; height: 200px"
     />
     <div>
-      <a href="/job/5">Go To JobPage 5</a>
+      <a href="job/5">Go To JobPage 5</a>
     </div>
   </q-page>
 </template>
